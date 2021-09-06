@@ -45,7 +45,7 @@ class MarvelAPI {
     private class func getCredentials() -> String {
         let ts = String(Date().timeIntervalSince1970)
         let hash = MD5(ts+privateKey+publicKey).lowercased()
-        return "ts=\(ts)&apikey=\(publicKey)&hash=\(privateKey)"
+        return "ts=\(ts)&apikey=\(publicKey)&hash=\(hash)"
     }
 }
 
