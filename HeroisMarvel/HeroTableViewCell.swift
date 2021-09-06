@@ -39,6 +39,5 @@ class HeroTableViewCell: UITableViewCell {
         ivThumb.layer.borderColor = UIColor.red.cgColor
         ivThumb.layer.borderWidth = 2
         
-        
     }
 }

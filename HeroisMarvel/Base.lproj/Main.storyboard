@@ -112,7 +112,7 @@
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="115" id="IvE-zC-P4n" customClass="HeroTableViewCell" customModule="HeroisMarvel" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="115" id="IvE-zC-P4n" customClass="HeroTableViewCell" customModule="HeroisMarvel">
                                 <rect key="frame" x="0.0" y="28" width="375" height="115"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IvE-zC-P4n" id="K1H-xf-g0d">
@@ -154,12 +154,9 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <outlet property="UIImageView" destination="sEf-mg-oq0" id="CVy-pO-ukq"/>
                                     <outlet property="ibDescription" destination="L3s-sd-nOJ" id="kId-KV-i58"/>
                                     <outlet property="ibName" destination="sEf-mg-oq0" id="4Ik-IX-u2c"/>
                                     <outlet property="ivThumb" destination="Aki-LY-asC" id="mWR-k0-YNF"/>
-                                    <outlet property="lbDescription" destination="L3s-sd-nOJ" id="zNu-np-iBe"/>
-                                    <outlet property="lbName" destination="sEf-mg-oq0" id="vSu-tI-i5s"/>
                                     <segue destination="wbg-dF-UHh" kind="show" id="1JN-Yt-CJs"/>
                                 </connections>
                             </tableViewCell>
